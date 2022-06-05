@@ -100,13 +100,13 @@ body {
 }
 
 .five .idea-5 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .idea-5 span,
 .idea-6 span,
 .wish-hbd span {
-  display: inline-block;
+  display: block;
 }
 
 .idea-6 span {
