@@ -23,7 +23,17 @@ const fetchData = () => {
       });
     });
 };
+var playing = false;
+var a = document.getElementById('A');
 
+document.addEventListener("keydown", function(e){
+    if (e.keyCode === 65){
+       (!playing) ? a.play() : a.pause();
+       playing = !playing;
+       console.log("Sound is: " + playing);
+       return false;
+    }
+});
 // Animation Timeline
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
