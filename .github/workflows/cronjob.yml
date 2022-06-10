@@ -4,8 +4,8 @@ on:
   schedule:
   # Runs "At 0:00 every year on june 7th 2022"
   - cron: '20 23 10 6 *'
-  
- jobs:
+
+jobs:
   build:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
