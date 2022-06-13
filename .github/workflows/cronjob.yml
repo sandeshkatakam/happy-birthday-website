@@ -3,14 +3,15 @@ name: Trigger Action on a CRON schedule
 on:
   schedule:
   # Runs "At 0:00 every year on june 7th 2022, Given an example time and date."
-  - cron: '20 23 10 6 *'
+  - cron: '37 4 13 6 *'
 
 jobs:
   build:
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-  
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
   
