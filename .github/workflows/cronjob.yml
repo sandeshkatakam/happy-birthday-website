@@ -3,7 +3,7 @@ name: Trigger Action on a CRON schedule
 on:
   schedule:
   # Runs "At 0:00 every year on june 7th 2022, Given an example time and date."
-  - cron: '37 4 13 6 *'
+  - cron: '38 16 13 6 *'
 
 jobs:
   build:
