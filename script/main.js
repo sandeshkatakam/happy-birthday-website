@@ -1,15 +1,15 @@
 // Import the data to customize and insert them into page
-const d = new Date();
-let time = d.getTime();
-var date1 = new Date('June 7, 2017 00:00:00');
+// const d = new Date();
+// let time = d.getTime();
+// var date1 = new Date('June 7, 2017 00:00:00');
 
-//best to use .getTime() to compare dates
-if(date1.getTime() === time){
-    //same date
-  window.location.href("index.html");
-}else{
-  window.location.href("index2.html");
-}
+// //best to use .getTime() to compare dates
+// if(date1.getTime() === time){
+//     //same date
+//   window.location.href("index.html");
+// }else{
+//   window.location.href("index2.html");
+// }
 
 
 const fetchData = () => {
