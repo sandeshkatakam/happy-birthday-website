@@ -6,9 +6,9 @@ var date1 = new Date('June 7, 2017 00:00:00');
 //best to use .getTime() to compare dates
 if(date1.getTime() === time){
     //same date
-  Window.location.href(index.html);
+  Window.location.href("/index.html");
 }else{
-  Window.location.href(index2.html);
+  Window.location.href("/index2.html");
 }
 
 
