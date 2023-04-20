@@ -204,9 +204,11 @@ Primary use:
 .wrappic1 {
   display: block;
   flex-grow: 1;
+  border-radius: 25px;
 }
 
 .wrappic1 img {
+  border-radius: 25px;
   max-width: 100%;
 }
 
