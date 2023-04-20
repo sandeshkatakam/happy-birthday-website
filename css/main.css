@@ -95,8 +95,8 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ L-Text >= 26 ]*/
 .l1-txt1 {
-  font-family: Lato-Hairline;
-  font-size: 72px;
+  font-family: 'windlassregular';
+  font-size: 50px;
   line-height: 1.1;
   color: #fff;
   text-transform: uppercase;
