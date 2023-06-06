@@ -2,6 +2,16 @@
 <html lang="en">
 <head>
 	<title>Happy Birthday Neeharika!!</title>
+	<script>
+		function redirectToNewPage() {
+		  var currentDate = new Date();
+		  var targetDate = new Date("2023-06-07 00:00:00"); // Replace with your desired date and time
+	
+		  if (currentDate >= targetDate) {
+			window.location.href = "index_wishes.html"; // Replace with the URL of your desired page
+		  }
+		}
+	  </script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -25,7 +35,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 </head>
-<body>
+<body onload="redirectToNewPage()">
 	
 	<!--  -->
 	<div class="simpleslide100">
@@ -47,11 +57,11 @@
 				<a href="#"><img src="images/icons/logo_1.jpg" alt="LOGO"></a>
 			</div>
 
-			<div class="flex-w m-t-10 m-b-10">
+			<!-- <div class="flex-w m-t-10 m-b-10">
 				<a href="#" class="size2 m1-txt1 flex-c-m how-btn1 trans-04">
 					Log in
 				</a>
-			</div>
+			</div> -->
 		</div>
 
 		<!--  -->
