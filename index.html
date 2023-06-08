@@ -6,8 +6,9 @@
 		function redirectToNewPage() {
 		  var currentDate = new Date();
 		  var targetDate = new Date("2023-06-07 00:00:00"); // Replace with your desired date and time
-	
-		  if (currentDate >= targetDate) {
+		  var targetEnd = new Date("2023-06-07 05:13:00");
+		  
+		  if (currentDate >= targetDate && currentDate <= targetEnd) {
 			window.location.href = "index_wishes.html"; // Replace with the URL of your desired page
 		  }
 		}
@@ -35,7 +36,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 </head>
-<body onload="redirectToNewPage()">
+<body>
 	
 	<!--  -->
 	<div class="simpleslide100">
